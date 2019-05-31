@@ -202,7 +202,7 @@ Currently, the following domains are available to be used with Google Assistant,
 
 Certain devices are considered secure, including anything in the `lock` domain, and `covers` with device types `garage` and `door`.
 
-By default these cannot be opened by Google Assistant unless a `secure_devices_pin` is set up. To allow opening, set the `secure_devices_pin` to something and you will be prompted to speak the pin when opening the device. Closing and locking these devices does not require a pin.
+By default these cannot be opened by Google Assistant unless a `secure_devices_pin` is set up. To allow opening, set the `secure_devices_pin` to a number in quotes (such as "1234"), and you will be prompted to speak the pin when opening the device. Closing and locking these devices does not require a pin.
 
 ### {% linkable_title Media Player Sources %}
 
